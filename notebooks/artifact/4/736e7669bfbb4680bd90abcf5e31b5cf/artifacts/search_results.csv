@@ -1,0 +1,5 @@
+params,areaUnderROC,param.LogisticRegression.elasticNetParam,param.LogisticRegression.regParam
+"{""LogisticRegression.elasticNetParam"": 0.1, ""LogisticRegression.regParam"": 0.05}",0.8337865160852735,0.1,0.05
+"{""LogisticRegression.elasticNetParam"": 0.1, ""LogisticRegression.regParam"": 0.1}",0.7937642451373114,0.1,0.1
+"{""LogisticRegression.elasticNetParam"": 0.15, ""LogisticRegression.regParam"": 0.05}",0.8123110754322418,0.15,0.05
+"{""LogisticRegression.elasticNetParam"": 0.15, ""LogisticRegression.regParam"": 0.1}",0.7611496566733065,0.15,0.1

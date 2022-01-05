@@ -1,0 +1,55 @@
+{
+  "hierarchy": {
+    "name": "TrainValidationSplit",
+    "evaluator": {
+      "name": "BinaryClassificationEvaluator"
+    },
+    "tuned_estimator": {
+      "name": "LogisticRegression"
+    }
+  },
+  "TrainValidationSplit": {
+    "tuning_parameter_map_list": [
+      {
+        "LogisticRegression.elasticNetParam": 0.2,
+        "LogisticRegression.regParam": 0.1
+      },
+      {
+        "LogisticRegression.elasticNetParam": 0.2,
+        "LogisticRegression.regParam": 0.2
+      },
+      {
+        "LogisticRegression.elasticNetParam": 0.5,
+        "LogisticRegression.regParam": 0.1
+      },
+      {
+        "LogisticRegression.elasticNetParam": 0.5,
+        "LogisticRegression.regParam": 0.2
+      },
+      {
+        "LogisticRegression.elasticNetParam": 1.0,
+        "LogisticRegression.regParam": 0.1
+      },
+      {
+        "LogisticRegression.elasticNetParam": 1.0,
+        "LogisticRegression.regParam": 0.2
+      }
+    ],
+    "tuned_estimator_parameter_map": {
+      "LogisticRegression.aggregationDepth": 2,
+      "LogisticRegression.elasticNetParam": 0.0,
+      "LogisticRegression.family": "auto",
+      "LogisticRegression.featuresCol": "features",
+      "LogisticRegression.fitIntercept": true,
+      "LogisticRegression.labelCol": "label",
+      "LogisticRegression.maxIter": 100,
+      "LogisticRegression.predictionCol": "prediction",
+      "LogisticRegression.probabilityCol": "probability",
+      "LogisticRegression.rawPredictionCol": "rawPrediction",
+      "LogisticRegression.regParam": 0.0,
+      "LogisticRegression.standardization": true,
+      "LogisticRegression.threshold": 0.5,
+      "LogisticRegression.tol": 1e-06
+    }
+  }
+}

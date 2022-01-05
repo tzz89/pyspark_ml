@@ -1,0 +1,4 @@
+params,areaUnderROC,param.GBTClassifier.maxDepth
+"{""GBTClassifier.maxDepth"": 3}",0.714025447454195,3
+"{""GBTClassifier.maxDepth"": 5}",0.7367073375124705,5
+"{""GBTClassifier.maxDepth"": 7}",0.7536838298849646,7

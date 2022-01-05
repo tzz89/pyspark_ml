@@ -1,0 +1,4 @@
+{
+  "LogisticRegression.elasticNetParam": 0.2,
+  "LogisticRegression.regParam": 0.1
+}

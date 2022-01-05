@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/teozz/OneDrive/Desktop/vscode_workspace/projects/py_spark_ml/notebooks/mlruns/2
+experiment_id: '2'
+lifecycle_stage: active
+name: Sentiment_analysis_RF
