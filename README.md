@@ -1,6 +1,6 @@
 ## This repository will hold all the pyspark related projects
 
-### Sentiment Analysis using Pyspark (project-1)
+## Sentiment Analysis using Pyspark (project-1)
 For the first project. I will be using performing sentitment analysis using pyspark. The result will be tracked using mlflow using different algorithms like Logistic Regression and RandomForest. The best result achieved is 0.83 AUROC. Pretty good!
 
 #### Data
@@ -24,11 +24,11 @@ For the first project. I will be using performing sentitment analysis using pysp
 <p>
 
 
-### Customer churn (project-2)
+## Customer churn (project-2)
 For the second project, I will be creating a model to predict customer churn. I think this is a very interesting project as it will have direct impact on the company's business. If we are able to identify potential customer churn, actions can be taken to prevent that from happening
 
 
-## Data
+#### Data
 The data contains all the "actions" taken by the user on the company's website. After aggregating, there are around 450 unique users and around 20% churn rate
 The data have been taken from https://github.com/abduygur/churn-prediction-using-spark
 
